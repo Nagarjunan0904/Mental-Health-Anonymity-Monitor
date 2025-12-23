@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PKGINFO
+
+# Virtual Environment
+venv/
+p3env/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.save
+*.env
+.p3env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+data/data.db
+
+# Logs
+*.log
+logs/
+
+# Flask
+instance/
+.webassets-cache
+
+# Generated plots
+project3_dashboard/static/plots/*.png
+project3_dashboard/static/plots/*.jpg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Analysis data (optional - uncomment if you don't want to track CSV files)
+# analysis/data/*.csv
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.~*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+analysis/data/mham_with_toxicity.csv
+analysis/data/mham_annotated.csv
+analysis/data/mham_posts.csv
